@@ -28,7 +28,7 @@ It uses a clean architecture structure, Zustand for state management, and fetche
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-video-platform.git
+   git clone https://github.com/h3ct0rg/videoManagement.git
    cd react-video-platform
 
     Install the dependencies:
