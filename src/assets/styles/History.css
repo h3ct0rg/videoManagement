@@ -1,0 +1,83 @@
+/* History.css */
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .history-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas para las cámaras */
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .history-view {
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .history-controls {
+    margin-bottom: 20px;
+  }
+  
+  .history-button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .progress-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .progress-container label {
+    margin-right: 10px;
+  }
+  
+  .progress-bar {
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .view-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .view-option {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-option:hover {
+    background-color: #16a085;
+  }
+  
