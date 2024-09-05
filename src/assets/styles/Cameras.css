@@ -1,0 +1,48 @@
+/* Cameras.css */
+.cameras-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .camera-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas para las cámaras */
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .camera-view {
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .camera-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .camera-option {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .camera-option:hover {
+    background-color: #16a085;
+  }
+  
